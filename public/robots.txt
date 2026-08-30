@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /admin/login
+Disallow: /api/
+Disallow: /static/
+Disallow: /manifest.json
+Disallow: /service-worker.js
+Disallow: /asset-manifest.json
+
+Allow: /
+Allow: /recruitment
+Allow: /insidesales
+Allow: /enterprise-ai
+Allow: /jobseeker
+Allow: /remote-front-desk
+Allow: /law-firm
+Allow: /cybersecurity
+Allow: /cybersecurity-hiring-managers
+
+Sitemap: https://teamupconsultants.com/sitemap.xml

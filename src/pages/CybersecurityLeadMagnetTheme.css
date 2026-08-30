@@ -1,0 +1,1062 @@
+.security-page {
+  --ink: #171717;
+  --muted: #6d6d6d;
+  --orange: #ff7a00;
+  --paper: #fffdfb;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.security-page .security-header { max-width: 1180px; padding: 22px 32px; }
+.security-page .security-brand img { width: 137px; }
+.security-page .security-header-note { color: var(--muted); }
+.security-page .security-hero { background: linear-gradient(120deg, #fff 0%, #fff 62%, #fff2e6 100%); }
+.security-page .security-hero-grid { max-width: 1180px; }
+.security-page .security-eyebrow, .security-page .section-label { color: var(--orange); font-size: 0.78rem; letter-spacing: .14em; line-height: 1.2; }
+.security-page .security-copy h1 {
+  color: var(--ink);
+  display: block;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: clamp(3.1rem, 5vw, 5.4rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 0.98;
+  margin: 0 0 18px;
+  max-width: 760px;
+}
+.security-page .security-copy h1 em { color: var(--orange); display: inline; }
+.security-page .security-intro, .security-page .section-copy { color: var(--muted); }
+.security-page .security-intro {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin: 0 0 26px;
+  max-width: 560px;
+}
+.security-page .section-copy {
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 420px;
+}
+.security-page .security-hero-cta { align-items: center; background: var(--orange); border-radius: 999px; box-shadow: 0 12px 28px #ff7a0030; color: #fff; display: inline-flex; font-size: 14px; font-weight: 800; gap: 11px; margin: 7px 0 0; padding: 15px 22px; text-decoration: none; transition: transform .2s, background .2s; }
+.security-page .security-hero-cta:hover { background: #e96800; color: #fff; transform: translateY(-2px); }
+.security-page .security-proof-dot { background: var(--orange); }
+.security-page .guide-glow { background: #fff0e1; }
+.security-page .guide-card-back { background: #ffe5cc; }
+.security-page .guide-card-front { background: #dfe3e5; color: var(--ink); }
+.security-page .guide-card-top,
+.security-page .guide-card-kicker,
+.security-page .guide-card-footer { color: #5f686d; }
+.security-page .guide-card-line { background: #9aa7ab; }
+.security-page .guide-card h2 span, .security-page .guide-shield, .security-page .guide-sticker { color: var(--orange); }
+.security-page .guide-sticker { background: var(--orange); color: #fff; }
+.security-page .security-content { background: #fff; }
+.security-page .security-pathways { background: #fff7f0; padding: 72px 32px; }
+.security-page .security-pathways-inner { max-width: 1180px; margin: 0 auto; }
+.security-page .security-pathways-heading { max-width: 850px; margin-bottom: 38px; }
+.security-page .security-pathways-heading h2 {
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: clamp(2.35rem, 3.2vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.08;
+  margin: 0 0 18px;
+}
+.security-page .security-pathways-heading > p:last-child { color: var(--muted); font-size: 1rem; line-height: 1.65; max-width: 550px; }
+.security-page .security-pathways-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.security-page .security-pathway-card { background: #fff; border: 1px solid #f1dcc8; border-radius: 8px; padding: 25px; min-height: 260px; }
+.security-page .security-pathway-card { transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease; }
+.security-page .security-pathway-card:hover { border-color: #fc5c1c66; box-shadow: 0 14px 28px rgba(17, 24, 39, .1); transform: translateY(-5px); }
+.security-page .security-pathway-number { color: var(--orange); font-size: 12px; font-weight: 800; letter-spacing: .12em; }
+.security-page .security-pathway-card h3 {
+  color: var(--ink);
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin: 20px 0 10px;
+}
+.security-page .security-pathway-card p { color: var(--muted); font-size: 0.92rem; line-height: 1.6; margin: 0 0 17px; }
+.security-page .security-pathway-card ul { list-style: none; margin: 0; padding: 0; }
+.security-page .security-pathway-card li { align-items: center; color: #496168; display: flex; font-size: 12px; gap: 8px; margin: 8px 0; }
+.security-page .security-pathway-card li svg { color: var(--orange); flex: 0 0 auto; }
+.security-page .security-pathway-action { align-items:center; color:var(--orange); display:inline-flex; font-size:12px; font-weight:800; gap:7px; margin-top:18px; text-decoration:none; }
+.security-page .security-pathway-action:hover { color:#e96800; text-decoration:underline; text-underline-offset:3px; }
+.security-page .security-pathways .security-pathway-action {
+  align-items: center;
+  border-top: 1px solid #e7edf0;
+  color: #e8531d;
+  display: flex;
+  font-size: 13px;
+  font-weight: 800;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding-top: 16px;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+.security-page .security-pathways .security-pathway-action svg {
+  background: #fc5c1c;
+  border-radius: 50%;
+  color: #fff;
+  height: 30px;
+  padding: 7px;
+  transition: background .2s ease, transform .2s ease, box-shadow .2s ease;
+  width: 30px;
+}
+.security-page .security-pathways .security-pathway-action:hover {
+  color: #c94416;
+  text-decoration: none;
+}
+.security-page .security-pathways .security-pathway-action:hover svg {
+  background: #d94a17;
+  box-shadow: 0 7px 14px rgba(252, 92, 28, .24);
+  transform: translateX(4px);
+}
+.security-page .guide-list li span { background: #fff0e1; color: var(--orange); }
+.security-page .download-section { background: #fff7f0; }
+.security-page .download-card { background: #dfe3e5; color: var(--ink); }
+.security-page .download-card-copy > p:not(.section-label),
+.security-page .download-card small,
+.security-page .download-form label,
+.security-page .form-note,
+.security-page .success-message p { color: #5f686d; }
+.security-page .success-message { background: #cbd2d4; }
+.security-page { --orange: #ff4d22; }
+.security-page { --orange: #fc5c1c; }
+.security-page {
+  --ink: #171717;
+  --muted: #64748b;
+  --orange: #fc5c1c;
+  --paper: #fff;
+}
+.security-page .security-hero,
+.security-page .security-pathways,
+.security-page .download-section {
+  background: #f2f6fa;
+}
+.security-page .security-hero {
+  background: linear-gradient(120deg, #fff 0%, #fff 62%, #fff2e6 100%);
+}
+.security-page .security-pathway-card {
+  border-color: #cbd5e1;
+}
+.security-page .guide-card-back {
+  background: #cbd5e1;
+}
+.security-page .security-hero-cta:hover,
+.security-page .download-form button:hover,
+.security-page .security-download-link:hover {
+  background: var(--orange);
+}
+.security-page .download-card .section-label { color: #ff9a42; }
+.security-page .download-form button { background: var(--orange); }
+.security-page .download-form button:hover { background: #e96800; }
+.security-page .download-form input,
+.security-page .download-form select { background: #fff; border-color: #cbd5e1; color: var(--ink); }
+.security-page .download-form input::placeholder { color: #64748b; }
+.security-page .download-form input:focus, .security-page .download-form select:focus { border-color: var(--orange); box-shadow: 0 0 0 3px #ff7a0025; }
+.security-page .download-form select { background: #fff; border: 1px solid #cbd5e1; border-radius: 3px; color: var(--ink); font: inherit; padding: 14px 15px; outline: none; }
+.security-page .success-icon { background: var(--orange); }
+.security-page .security-download-link { align-items: center; background: var(--orange); border-radius: 999px; color: #fff; display: inline-flex; font-size: 13px; font-weight: 800; gap: 8px; margin-top: 14px; padding: 12px 17px; text-decoration: none; }
+.security-page .security-download-link:hover { background: #e96800; color: #fff; }
+
+/* Premium resource handoff card. */
+.security-page .success-message {
+  background: linear-gradient(145deg, #f8fbfc 0%, #eef3f5 100%);
+  border: 1px solid #d5e0e5;
+  border-radius: 22px;
+  box-shadow: 0 24px 50px rgba(15, 36, 51, .14);
+  color: #102a43;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: hidden;
+  padding: 30px;
+  position: relative;
+}
+.security-page .success-message .success-icon,
+.security-page .success-message h3,
+.security-page .success-message p {
+  grid-column: 1 / -1;
+}
+.security-page .success-message::before {
+  background: linear-gradient(90deg, #fc5c1c, #ff9a42);
+  content: '';
+  height: 5px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.security-page .success-icon {
+  box-shadow: 0 10px 20px rgba(252, 92, 28, .25);
+  height: 54px;
+  margin-bottom: 24px;
+  width: 54px;
+}
+.security-page .success-message h3 {
+  color: #102a43;
+  font-size: clamp(1.8rem, 3vw, 2.45rem);
+  letter-spacing: -.045em;
+  line-height: 1.05;
+  margin-bottom: 12px;
+}
+.security-page .success-message p {
+  color: #58718c;
+  font-size: 15px;
+  line-height: 1.65;
+  margin-bottom: 12px;
+}
+.security-page .success-message .security-pathway-action {
+  align-items: center;
+  background: rgba(255, 255, 255, .82);
+  border: 1px solid #dbe5e9;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(15, 36, 51, .05);
+  color: #e8531d;
+  display: flex;
+  font-size: 12px;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 0;
+  min-height: 42px;
+  padding: 9px 12px;
+  text-decoration: none;
+  transition: background .2s ease, border-color .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+.security-page .success-message .security-pathway-action:hover {
+  background: #fff;
+  border-color: #fc5c1c;
+  box-shadow: 0 10px 20px rgba(252, 92, 28, .12);
+  color: #c94416;
+  text-decoration: none;
+  transform: translateX(4px);
+}
+@media (max-width: 700px) {
+  .security-page .success-message {
+    grid-template-columns: 1fr;
+    padding: 24px;
+  }
+}
+.security-page .security-footer { color: var(--muted); }
+@media (max-width: 900px) { .security-page .security-pathways-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .security-page .security-pathways { padding-left: 20px; padding-right: 20px; } .security-page .security-pathways-grid { grid-template-columns: 1fr; } }
+
+/* Hero-only heading adjustment. */
+.security-page .security-hero .security-copy h1 {
+  font-size: clamp(3.4rem, 4.1vw, 4.35rem);
+}
+@media (max-width: 900px) {
+  .security-page .security-hero .security-copy h1 { font-size: clamp(2.6rem, 7vw, 3.7rem); }
+}
+@media (max-width: 520px) {
+  .security-page .security-hero .security-copy h1 { font-size: 2.3rem; }
+}
+
+/* Final responsive alignment override (must follow the shared desktop nudge). */
+@media (max-width: 1100px) {
+  .security-page .security-hero .security-copy { transform: none; }
+}
+/* Keep cybersecurity career together on hero line two. */
+.security-page .security-hero .security-copy h1 { max-width: 900px; }
+/* Keep hero cybersecurity career on one line. */
+.security-page .security-hero .hero-career-line { white-space: nowrap; }
+@media (max-width: 900px) {
+  .security-page .security-hero .hero-career-line { white-space: normal; }
+}
+/* Hero height and top alignment. */
+.security-page .security-hero { min-height: 706px; }
+.security-page .security-hero-grid { transform: translateY(40px); }
+.security-page .security-hero-grid { align-items: flex-start; }
+/* Lower hero content slightly. */
+.security-page .security-hero-grid { transform: translateY(58px); }
+@media (max-width: 900px) {
+  .security-page .security-hero-grid { transform: none; }
+}
+
+/* Align hero copy with logo edge. */
+.security-page .security-hero .security-copy { transform: none; }
+@media (max-width: 900px) {
+  .security-page .security-hero .security-copy { transform: none; }
+}
+
+/* Keep the hero copy inside the same left edge as the main site's responsive
+   container at narrower desktop/tablet widths and browser zoom levels. */
+@media (max-width: 1100px) {
+  .security-page .security-hero .security-copy { transform: none !important; }
+}
+
+/* Match the homepage banner heading treatment. */
+.security-page .security-hero .security-copy h1 {
+  color: #212529;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: clamp(3rem, 4.5vw, 4.5rem);
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  text-shadow: none;
+}
+.security-page .security-hero .security-copy h1 em { color: #fc5c1c; }
+
+/* Keep section headings visually consistent with the bold hero typography. */
+.security-page h2,
+.security-page h3 {
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.security-page .security-content h2,
+.security-page .security-pathways-heading h2,
+.security-page .download-card h2 {
+  font-family: inherit;
+  font-weight: 900;
+  letter-spacing: normal;
+  line-height: 1.2;
+}
+
+/* Keep every cybersecurity section on the same type family as the hero. */
+.security-page,
+.security-page * {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Match the Inside Sales hero heading exactly. */
+.security-page .security-hero .security-copy h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: normal;
+  line-height: 1.2;
+}
+
+/* Lift the hero content slightly for a tighter first-viewport composition. */
+.security-page .security-hero-grid { transform: translateY(40px); }
+@media (max-width: 900px) {
+  .security-page .security-hero-grid { transform: none; }
+}
+
+/* Let the hero end after its content instead of reserving a tall blank area. */
+.security-page .security-hero { min-height: 706px; }
+
+/* Compact hero footprint - no reserved vertical dead space. */
+.security-page .security-hero { padding-top: 0; padding-bottom: 20px; }
+.security-page .guide-art { min-height: 410px; }
+
+/* Shared section gutters, matching the site's spacious content sections. */
+.security-page .security-hero,
+.security-page .security-focus,
+.security-page .security-content,
+.security-page .security-pathways,
+.security-page .download-section {
+  padding-left: clamp(24px, 4vw, 64px);
+  padding-right: clamp(24px, 4vw, 64px);
+}
+/* Slight hero heading letter spacing. */
+.security-page .security-hero .security-copy h1 { letter-spacing: 0.01em; }
+.security-page .security-intro { color:#212529; }
+/* Slightly larger hero playbook. */
+.security-page .security-hero .guide-glow { width: 390px; height: 390px; }
+.security-page .security-hero .guide-card { width: 278px; height: 372px; }
+.security-page .security-hero .guide-sticker { width: 78px; height: 78px; }
+
+/* Final hero positioning override. */
+.security-page .security-hero-grid { transform:translateY(40px) !important; }
+@media (max-width:900px) {
+  .security-page .security-hero-grid { transform:none !important; }
+}
+
+/* Fine alignment: lower only the eyebrow and right artwork. */
+.security-page .security-eyebrow { transform:translateY(12px); }
+.security-page .guide-art { margin-top:0 !important; transform:translateY(40px); }
+.security-page .security-hero { min-height:auto !important; }
+.security-page .security-hero { background:#fff; }
+.security-page .security-hero { margin-bottom:0; }
+.security-page .security-hero { padding-bottom:80px !important; }
+.security-page .security-copy { transform:translateY(30px); }
+@media (max-width:900px) {
+  .security-page .security-eyebrow,
+  .security-page .security-copy,
+  .security-page .guide-art { transform:none; }
+}
+
+/* Hiring-page hero alignment for the cybersecurity career page. */
+.security-page .security-hero {
+  background: #fff !important;
+  min-height: 0 !important;
+  padding: 58px 32px 92px !important;
+}
+.security-page .security-hero-grid {
+  align-items: center !important;
+  display: grid;
+  gap: 48px;
+  grid-template-columns: minmax(0, 1.08fr) minmax(360px, .92fr);
+  margin: 0 auto;
+  max-width: 1180px;
+  transform: none !important;
+}
+.security-page .security-copy {
+  transform: none !important;
+}
+.security-page .security-eyebrow {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin: 0 0 22px;
+  transform: none !important;
+}
+.security-page .security-copy h1 {
+  color: #212529;
+  font-size: clamp(3.1rem, 4.5vw, 4.45rem) !important;
+  letter-spacing: -0.035em !important;
+  line-height: 1.08 !important;
+  margin: 0 0 24px;
+  max-width: 760px !important;
+}
+.security-page .security-intro {
+  color: #0d3557 !important;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin: 0 0 28px;
+  max-width: 690px;
+}
+.security-page .security-hero-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.security-page .security-hero-cta {
+  border-radius: 12px;
+  font-size: 1rem;
+  margin: 0;
+  padding: 16px 24px;
+}
+.security-page .security-hero-cta--secondary {
+  background: #fff;
+  border: 2px solid var(--orange);
+  color: var(--orange);
+  box-shadow: none;
+}
+.security-page .security-hero-cta--secondary:hover {
+  background: var(--orange);
+  color: #fff;
+}
+.security-page .guide-art {
+  justify-self: center;
+  margin: 0 !important;
+  min-height: 470px;
+  transform: translateY(-8px) scale(1.06) !important;
+  width: 100%;
+}
+.security-page .security-hero .guide-glow {
+  height: 440px;
+  width: 440px;
+}
+.security-page .security-hero .guide-card {
+  height: 420px;
+  width: 314px;
+}
+.security-page .security-hero .guide-sticker {
+  height: 84px;
+  width: 84px;
+}
+@media (max-width: 900px) {
+  .security-page .security-hero {
+    padding: 42px 24px 64px !important;
+  }
+  .security-page .security-hero-grid {
+    gap: 28px;
+    grid-template-columns: 1fr;
+  }
+  .security-page .security-copy h1 {
+    font-size: clamp(2.6rem, 8vw, 4rem) !important;
+  }
+  .security-page .guide-art {
+    min-height: 420px;
+    transform: none !important;
+  }
+}
+@media (max-width: 560px) {
+  .security-page .security-hero-actions,
+  .security-page .security-hero-cta {
+    width: 100%;
+  }
+  .security-page .security-hero-cta {
+    justify-content: center;
+  }
+}
+/* Final hero proportion pass to match the hiring managers page. */
+@media (min-width: 901px) {
+  .security-page .security-hero-grid {
+    gap: 42px;
+    grid-template-columns: minmax(0, 1.12fr) minmax(360px, .88fr);
+  }
+  .security-page .security-copy h1 {
+    font-size: clamp(3rem, 3.7vw, 4rem) !important;
+    max-width: 900px !important;
+  }
+  .security-page .security-intro {
+    max-width: 700px;
+  }
+  .security-page .guide-art {
+    transform: translateY(-8px) scale(1.04) !important;
+  }
+}
+/* Match the hiring managers hero baseline without moving the artwork. */
+@media (min-width: 901px) {
+  .security-page .security-hero .security-copy {
+    transform: translateY(-22px) !important;
+  }
+  .security-page .security-hero .guide-art {
+    transform: translateY(-8px) scale(1.04) !important;
+  }
+}
+@media (max-width: 900px) {
+  .security-page .security-hero .security-copy {
+    transform: none !important;
+  }
+}
+/* Reduce the empty space between the hero and the following tabs. */
+@media (min-width: 901px) {
+  .security-page .security-hero {
+    padding-bottom: 50px !important;
+  }
+  .security-page .security-hero .guide-art {
+    min-height: 440px;
+  }
+}
+/* Final desktop placement: copy starts closer to the logo edge and sits lower. */
+@media (min-width: 901px) {
+  .security-page .security-hero .security-copy {
+    transform: translate(-46px, 24px) !important;
+  }
+}
+@media (max-width: 900px) {
+  .security-page .security-hero .security-copy {
+    transform: none !important;
+  }
+}
+/* Lower the desktop hero copy slightly to match the hiring page start. */
+@media (min-width: 901px) {
+  .security-page .security-hero .security-copy {
+    transform: translate(-46px, 44px) !important;
+  }
+}
+/* Final small downward adjustment for the desktop hero copy. */
+@media (min-width: 901px) {
+  .security-page .security-hero .security-copy {
+    transform: translate(-46px, 64px) !important;
+  }
+}
+/* Add balanced breathing room below the lowered hero copy. */
+@media (min-width: 901px) {
+  .security-page .security-hero .security-copy {
+    transform: translate(-46px, 84px) !important;
+  }
+  .security-page .security-hero {
+    padding-bottom: 70px !important;
+  }
+}
+/* Keep the complete hero above the fold and push the next section below it. */
+@media (min-width: 901px) {
+  .security-page .security-hero {
+    min-height: 860px !important;
+  }
+}
+@media (max-width: 900px) {
+  .security-page .security-hero {
+    min-height: 0 !important;
+  }
+}
+/* Let the hero size naturally so the next section does not have a large blank gap. */
+@media (min-width: 901px) {
+  .security-page .security-hero {
+    min-height: 0 !important;
+  }
+}
+/* Keep the complete hero within the first viewport and start the next section below it. */
+@media (min-width: 901px) {
+  .security-page .security-hero {
+    min-height: calc(100vh - 92px) !important;
+  }
+}
+@media (max-width: 900px) {
+  .security-page .security-hero {
+    min-height: 0 !important;
+  }
+}/* Give the career map illustration more vertical presence. */
+@media (min-width: 901px) {
+  .security-page .security-focus-visual {
+    min-height: 640px !important;
+  }
+
+  .security-page .security-focus-visual img {
+    height: 640px !important;
+    object-fit: contain !important;
+  }
+}
+@media (max-width: 900px) {
+  .security-page .security-focus-visual {
+    min-height: 480px !important;
+  }
+
+  .security-page .security-focus-visual img {
+    height: 480px !important;
+    object-fit: contain !important;
+  }
+}
+
+/* Use the same font family as the hiring manager sections below the hero. */
+.security-page .security-focus,
+.security-page .security-focus *,
+.security-page .security-content,
+.security-page .security-content *,
+.security-page .security-pathways,
+.security-page .security-pathways *,
+.security-page .download-section,
+.security-page .download-section * {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* Nudge the career hero artwork slightly right on desktop. */
+@media (min-width: 901px) {
+  .security-page .security-hero .guide-art {
+    transform: translate(30px, 82px) scale(1.04) !important;
+  }
+}
+/* Match the hiring manager section heading style and accent the final word. */
+.security-page .security-focus-copy h2 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: clamp(2.35rem, 3.2vw, 3.5rem) !important;
+  font-weight: 700 !important;
+  letter-spacing: -.045em !important;
+  line-height: 1.08 !important;
+}
+
+.security-page .security-focus-title-accent {
+  color: #fc5c1c;
+}
+
+/* Keep the right-side visual heading typography consistent with the rest of
+   the cybersecurity page. */
+.security-page .security-focus-visual-heading,
+.security-page .security-focus-visual-heading h3,
+.security-page .security-focus-visual-heading p {
+  font-family: inherit !important;
+}
+/* Balance the career cards with the full-height career map artwork. */
+@media (min-width: 901px) {
+  .security-page .security-focus-cards {
+    grid-auto-rows: 270px;
+  }
+
+  .security-page .security-focus-card {
+    min-height: 270px;
+  }
+}
+/* Match the resource hub heading to the bold section heading style above. */
+.security-page .security-content h2 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: clamp(2.35rem, 3.2vw, 3.5rem) !important;
+  font-weight: 700 !important;
+  letter-spacing: -.045em !important;
+  line-height: 1.08 !important;
+  max-width: 560px;
+}
+/* Resource hub layout matching the reference feature-card section. */
+.security-page .security-content {
+  background: #fff;
+  padding-top: 72px;
+  padding-bottom: 76px;
+}
+
+.security-page .security-content-grid {
+  align-items: start;
+  gap: clamp(48px, 7vw, 112px);
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  max-width: 1180px;
+}
+
+.security-page .security-content-label {
+  align-items: center;
+  border: 1px solid var(--orange);
+  border-radius: 999px;
+  color: var(--orange);
+  display: inline-flex;
+  gap: 10px;
+  letter-spacing: .12em;
+  margin-bottom: 28px;
+  padding: 11px 19px;
+}
+
+.security-page .security-content-label span {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.security-page .security-content h2 {
+  max-width: 620px;
+}
+
+.security-page .security-content-accent {
+  position: relative;
+  white-space: nowrap;
+}
+
+.security-page .security-content-accent::after {
+  background: #ffb27d;
+  border-radius: 50%;
+  bottom: -13px;
+  content: "";
+  height: 7px;
+  left: 18%;
+  position: absolute;
+  transform: rotate(-3deg);
+  width: 72%;
+}
+
+.security-page .security-content .section-copy {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 560px;
+}
+
+.security-page .guide-list {
+  border: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.security-page .guide-list-card {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #edf0f2;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(18, 32, 48, .08);
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 112px 1fr;
+  min-height: 148px;
+  padding: 26px 34px;
+}
+
+.security-page .guide-list-icon {
+  align-items: center;
+  background: #fff0e1;
+  border-radius: 50%;
+  color: var(--orange);
+  display: inline-flex;
+  height: 94px;
+  justify-content: center;
+  width: 94px;
+}
+
+.security-page .guide-list-card h3 {
+  color: var(--ink);
+  font-size: 1.22rem;
+  font-weight: 800;
+  letter-spacing: -.025em;
+  line-height: 1.2;
+  margin: 0 0 8px;
+}
+
+.security-page .guide-list-card p {
+  color: var(--muted);
+  font-size: .98rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .security-page .security-content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .security-page .guide-list-card {
+    grid-template-columns: 82px 1fr;
+    min-height: 126px;
+    padding: 22px;
+  }
+
+  .security-page .guide-list-icon {
+    height: 68px;
+    width: 68px;
+  }
+}
+
+@media (max-width: 600px) {
+  .security-page .security-content-label {
+    font-size: .74rem;
+  }
+
+  .security-page .guide-list-card {
+    gap: 16px;
+    grid-template-columns: 1fr;
+  }
+}
+.security-page .security-content-illustration {
+  display: block;
+  height: auto;
+  margin: 34px auto 0;
+  max-height: 270px;
+  max-width: 100%;
+  object-fit: contain;
+  width: min(100%, 520px);
+}
+
+@media (max-width: 900px) {
+  .security-page .security-content-illustration {
+    margin-left: 0;
+    max-height: 230px;
+  }
+}
+@media (min-width: 901px) {
+  .security-page .security-content-grid > div:first-child {
+    transform: translateY(-32px);
+  }
+}
+
+@media (max-width: 900px) {
+  .security-page .security-content-grid > div:first-child {
+    transform: none;
+  }
+}
+/* Refine the resource cards to match the section typography above. */
+.security-page .guide-list-card {
+  background: linear-gradient(135deg, #fff 0%, #fffaf5 100%);
+  border-color: #f0e5dc;
+  box-shadow: 0 12px 28px rgba(18, 32, 48, .07);
+}
+
+.security-page .guide-list-card h3 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 1.16rem;
+  font-weight: 700 !important;
+  letter-spacing: -.035em;
+  line-height: 1.25;
+}
+
+.security-page .guide-list-card p {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.security-page .guide-list-icon {
+  background: #fff0e1;
+  box-shadow: inset 0 0 0 1px rgba(252, 92, 28, .08);
+}
+.security-page .guide-list-card {
+  cursor: pointer;
+  transition: border-color .22s ease, box-shadow .22s ease, transform .22s ease;
+}
+
+.security-page .guide-list-card:hover {
+  border-color: rgba(252, 92, 28, .42);
+  box-shadow: 0 18px 34px rgba(18, 32, 48, .13);
+  transform: translateY(-4px);
+}
+
+.security-page .guide-list-card:hover .guide-list-icon {
+  transform: scale(1.04);
+}
+
+.security-page .guide-list-icon {
+  overflow: hidden;
+  transition: background .22s ease, transform .22s ease;
+}
+
+.security-page .guide-list-icon img {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+/* Keep the pathways and download sections on the same heading system. */
+.security-page .security-pathways-heading h2,
+.security-page .download-card h2 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: -.045em !important;
+  line-height: 1.08 !important;
+}
+
+.security-page .security-pathway-card h3 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: -.035em !important;
+  line-height: 1.25 !important;
+}
+/* Compact the focus section while keeping its content readable. */
+@media (min-width: 901px) {
+  .security-page .security-focus {
+    padding-bottom: 52px;
+  }
+
+  .security-page .security-focus-visual {
+    min-height: 520px !important;
+  }
+
+  .security-page .security-focus-visual img {
+    height: 520px !important;
+  }
+
+  .security-page .security-focus-cards {
+    grid-auto-rows: minmax(220px, auto);
+  }
+
+  .security-page .security-focus-card {
+    min-height: 220px;
+  }
+}
+/* Further compact the focus section and its cards. */
+@media (min-width: 901px) {
+  .security-page .security-focus {
+    padding-top: 10px;
+    padding-bottom: 34px;
+  }
+
+  .security-page .security-focus-tabs {
+    margin-bottom: 28px;
+  }
+
+  .security-page .security-focus-visual,
+  .security-page .security-focus-visual img {
+    min-height: 450px !important;
+    height: 450px !important;
+  }
+
+  .security-page .security-focus-cards {
+    gap: 14px;
+    margin-top: 14px;
+    grid-auto-rows: minmax(190px, auto);
+  }
+
+  .security-page .security-focus-card {
+    min-height: 190px;
+    padding: 20px;
+  }
+
+  .security-page .security-focus-card-index {
+    margin-bottom: 10px;
+  }
+
+  .security-page .security-focus-card h3 {
+    font-size: 1rem;
+    margin-bottom: 7px;
+  }
+
+  .security-page .security-focus-card p {
+    font-size: .8rem;
+    line-height: 1.45;
+  }
+}
+/* Compact the left focus content without changing the right illustration. */
+@media (min-width: 901px) {
+  .security-page .security-focus-copy h2 {
+    font-size: clamp(2rem, 2.8vw, 3rem) !important;
+  }
+
+  .security-page .security-focus-copy > .section-copy {
+    font-size: .92rem;
+    line-height: 1.5;
+    max-width: 560px;
+  }
+
+  .security-page .security-focus-cards {
+    gap: 12px;
+    margin-top: 12px;
+    grid-auto-rows: minmax(165px, auto);
+  }
+
+  .security-page .security-focus-card {
+    min-height: 165px;
+    padding: 16px;
+  }
+
+  .security-page .security-focus-card-index {
+    margin-bottom: 7px;
+  }
+
+  .security-page .security-focus-card h3 {
+    font-size: .94rem;
+    margin-bottom: 6px;
+  }
+
+  .security-page .security-focus-card p {
+    font-size: .74rem;
+    line-height: 1.35;
+  }
+}
+/* Restore comfortable card typography after shortening the copy. */
+@media (min-width: 901px) {
+  .security-page .security-focus-card {
+    min-height: 180px;
+    padding: 18px;
+  }
+
+  .security-page .security-focus-card h3 {
+    font-size: 1.08rem;
+    margin-bottom: 8px;
+  }
+
+  .security-page .security-focus-card p {
+    font-size: .875rem;
+    line-height: 1.45;
+  }
+}
+/* Keep focus cards concise while restoring the larger readable type. */
+@media (min-width: 901px) {
+  .security-page .security-focus-card {
+    min-height: 180px;
+    padding: 18px;
+  }
+
+  .security-page .security-focus-card h3 {
+    font-size: 1.08rem;
+    line-height: 1.22;
+    margin-bottom: 8px;
+  }
+
+  .security-page .security-focus-card p {
+    font-size: .9rem;
+    line-height: 1.45;
+  }
+}
+
+.security-page .download-heading-accent { color: var(--orange); }
+
+
+.security-page .pathways-heading-accent { color: var(--orange); }
+
+.security-page .security-focus-card-action {
+  align-items: center;
+  color: var(--orange);
+  display: inline-flex;
+  font-size: .82rem;
+  font-weight: 800;
+  gap: 7px;
+  margin-top: 18px;
+  text-decoration: none;
+}
+
+.security-page .security-focus-card-action:hover { color: var(--ink); }
+
+/* Keep the focus section and the sections below it on the same wide rail as
+   the site's navbar/logo container. */
+@media (min-width: 901px) {
+  .security-page .security-focus-grid,
+  .security-page .security-content-grid,
+  .security-page .security-pathways-inner,
+  .security-page .download-card {
+    max-width: 1280px;
+  }
+}
+/* Keep both cybersecurity pages on one shared system font stack. */
+.security-page,
+.security-page * {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}

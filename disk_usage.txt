@@ -1,0 +1,24 @@
+﻿
+Name              SizeGB
+----              ------
+npm               0.00  
+nvm               0.00  
+index.html        0.00  
+node              0.00  
+package-lock.json 0.00  
+vercel.json       0.00  
+vite.config.js    0.00  
+package.json      0.00  
+README.md         0.00  
+frontend@0.0.0    0.00  
+public            0.00  
+src               0.03  
+.git              0.03  
+node_modules      0.00  
+.env              0.00  
+disk_usage.txt    0.00  
+eslint.config.js  0.00  
+.gitignore        0.00  
+cd                0.00  
+
+
